@@ -2,8 +2,16 @@
     background-color: pink;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
-.second{
+#two{
     color: blue;
-    size: 36px;
     font-size: 36px;
+}
+.third{
+    font-size: 34px;
+}
+
+#four{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 900;
 }

@@ -9,11 +9,29 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* border:2px solid black; */
+  margin:1px;
+  align-content: center;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  /* border:2px solid black; */
+
 }
 
 ul {
   /* this removes the dots on the list items*/
+  display: flex;
+  margin:1px;
+  padding: 2px;
   list-style-type: none;
+  justify-content: center;
+  /* border:2px solid black; */
+  
+}
+li{
+  padding:1em;
 }
 
 a {

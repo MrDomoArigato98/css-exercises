@@ -18,9 +18,6 @@
   margin: 0;
   background-color: rgb(99, 97, 97);
   display: none;
-
-  transform-origin: top;
-
 }
 
 ul.dropdown-menu li:hover {
@@ -43,6 +40,6 @@ ul.dropdown-menu li:hover {
 .visible {
   display: block;
   
-  animation: bounce-in 1s;
-  animation-iteration-count: 1;
+  transform-origin: top;
+  animation: bounce-in 1s ease-in-out;
 }
